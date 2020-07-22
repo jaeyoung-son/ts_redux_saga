@@ -1,10 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import CounterContainer from './containers/CounterContainer';
-import './App.css';
+import React from "react";
+
+import GithubProfileLoader from "./containers/GithubProfileLoader";
 
 function App() {
-  return <CounterContainer />;
+  return <GithubProfileLoader />;
 }
 
 export default App;
